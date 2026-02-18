@@ -1,0 +1,113 @@
+{
+  "MainScreen": {
+    "micLabel": "Tap to speak",
+    "cameraLabel": "Camera",
+    "helpLabel": "Help",
+    "accessibilityLabel": "Accessibility",
+    "listening": "Listening...",
+    "processing": "Processing...",
+    "greeting": "Hello! How can I help you today?",
+    "errorGeneric": "Something went wrong. Tap to try again.",
+    "responsesTitle": "Responses"
+  },
+  "ResponseCard": {
+    "listen": "Listen to response",
+    "stepByStep": "Step by step",
+    "openVideo": "Open trusted video",
+    "source": "Source"
+  },
+  "Onboarding": {
+    "welcome": "Let's create your account. I'll explain each step.",
+    "welcomeTitle": "Welcome to NaviAI!",
+    "start": "Get started",
+    "nameStep": "What is your name?",
+    "emailStep": "Now, enter your email.",
+    "passwordStep": "Choose a secure password. At least 8 characters.",
+    "done": "Account created successfully!",
+    "accessibilityQuestion": "Would you like to enable Accessibility Mode?",
+    "nameLabel": "Your name",
+    "emailLabel": "Your email",
+    "passwordLabel": "Your password",
+    "showPassword": "Show password",
+    "hidePassword": "Hide password",
+    "next": "Next",
+    "previous": "Previous",
+    "finish": "Finish",
+    "step": "Step",
+    "of": "of",
+    "narrating": "Narrating...",
+    "errorEmailExists": "This email is already in use.",
+    "errorPasswordShort": "Password must be at least 8 characters.",
+    "errorGeneric": "An error occurred. Please try again."
+  },
+  "Accessibility": {
+    "title": "Accessibility",
+    "fontSize": "Font size",
+    "highContrast": "High contrast",
+    "readAloud": "Read aloud",
+    "easyTouch": "Larger buttons",
+    "voiceSpeed": "Voice speed",
+    "slow": "Slow",
+    "normal": "Normal"
+  },
+  "Camera": {
+    "title": "Camera",
+    "takePhoto": "Take photo",
+    "retake": "Retake",
+    "analyze": "Analyze image",
+    "analyzing": "Analyzing...",
+    "back": "Back",
+    "starting": "Starting camera...",
+    "tryAgain": "Try again",
+    "photoPreviewAlt": "Captured photo",
+    "permission_denied": "Camera permission was denied. Please allow access in your browser settings.",
+    "no_camera": "No camera was found on this device.",
+    "camera_not_supported": "Your browser does not support camera access.",
+    "camera_error": "An error occurred while accessing the camera.",
+    "resultTitle": "Analysis result",
+    "suggestions": "Step-by-step suggestions",
+    "sensitiveWarning": "Warning: this image may contain sensitive data such as passwords or card numbers. Be careful when sharing.",
+    "analysisError": "An error occurred while analyzing the image. Please try again.",
+    "listenResult": "Listen to result",
+    "stopListening": "Stop reading"
+  },
+  "Settings": {
+    "title": "Accessibility",
+    "back": "Back"
+  },
+  "Help": {
+    "title": "Help",
+    "back": "Back",
+    "howToSpeak": {
+      "question": "How to talk to NaviAI?",
+      "answer": "Tap the microphone button on the main screen and speak your question. NaviAI will listen and respond in a few seconds. You can also tap again to stop recording."
+    },
+    "howToCamera": {
+      "question": "How to use the camera?",
+      "answer": "Tap the camera button on the main screen. Point the camera at what you want to analyze and tap 'Take photo'. Then tap 'Analyze image' so NaviAI can describe what is in the photo."
+    },
+    "whatIsAccessibility": {
+      "question": "What is accessibility mode?",
+      "answer": "Accessibility mode increases the size of text and buttons, and can enable high contrast for easier reading. You can also enable read aloud to hear responses. Go to Settings > Accessibility."
+    },
+    "howToCreateAccount": {
+      "question": "How to create an account?",
+      "answer": "Tap 'Create account' on the login screen. Fill in your name, email, and create a secure password. In a few steps you will be ready to use NaviAI!"
+    }
+  },
+  "Auth": {
+    "login": "Log in",
+    "createAccount": "Create account",
+    "email": "Email",
+    "password": "Password",
+    "rememberMe": "Remember me",
+    "loginTitle": "Log in to NaviAI",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "errorInvalidCredentials": "Invalid email or password. Please try again.",
+    "or": "or",
+    "loginGoogle": "Sign in with Google",
+    "devSession": "Sign in as developer",
+    "googleNotConfigured": "Google login is not configured."
+  }
+}

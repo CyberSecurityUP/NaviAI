@@ -1,0 +1,113 @@
+{
+  "MainScreen": {
+    "micLabel": "Toque para falar",
+    "cameraLabel": "Camera",
+    "helpLabel": "Ajuda",
+    "accessibilityLabel": "Acessibilidade",
+    "listening": "Ouvindo...",
+    "processing": "Processando...",
+    "greeting": "Ola! Como posso ajudar voce hoje?",
+    "errorGeneric": "Ocorreu um erro. Toque para tentar novamente.",
+    "responsesTitle": "Respostas"
+  },
+  "ResponseCard": {
+    "listen": "Ouvir resposta",
+    "stepByStep": "Passo a passo",
+    "openVideo": "Abrir video confiavel",
+    "source": "Fonte"
+  },
+  "Onboarding": {
+    "welcome": "Vamos criar sua conta. Vou explicar cada etapa.",
+    "welcomeTitle": "Bem-vindo ao NaviAI!",
+    "start": "Comecar",
+    "nameStep": "Qual e o seu nome?",
+    "emailStep": "Agora, digite seu e-mail.",
+    "passwordStep": "Escolha uma senha segura. Pelo menos 8 caracteres.",
+    "done": "Conta criada com sucesso!",
+    "accessibilityQuestion": "Quer ativar o Modo Acessibilidade?",
+    "nameLabel": "Seu nome",
+    "emailLabel": "Seu e-mail",
+    "passwordLabel": "Sua senha",
+    "showPassword": "Mostrar senha",
+    "hidePassword": "Ocultar senha",
+    "next": "Proximo",
+    "previous": "Anterior",
+    "finish": "Concluir",
+    "step": "Passo",
+    "of": "de",
+    "narrating": "Narrando...",
+    "errorEmailExists": "Este e-mail ja esta em uso.",
+    "errorPasswordShort": "A senha deve ter pelo menos 8 caracteres.",
+    "errorGeneric": "Ocorreu um erro. Tente novamente."
+  },
+  "Accessibility": {
+    "title": "Acessibilidade",
+    "fontSize": "Tamanho da letra",
+    "highContrast": "Alto contraste",
+    "readAloud": "Ler em voz alta",
+    "easyTouch": "Botoes maiores",
+    "voiceSpeed": "Velocidade da voz",
+    "slow": "Lenta",
+    "normal": "Normal"
+  },
+  "Camera": {
+    "title": "Camera",
+    "takePhoto": "Tirar foto",
+    "retake": "Tirar outra",
+    "analyze": "Analisar imagem",
+    "analyzing": "Analisando...",
+    "back": "Voltar",
+    "starting": "Iniciando camera...",
+    "tryAgain": "Tentar novamente",
+    "photoPreviewAlt": "Foto capturada",
+    "permission_denied": "Permissao para usar a camera foi negada. Por favor, permita o acesso nas configuracoes do navegador.",
+    "no_camera": "Nenhuma camera foi encontrada neste dispositivo.",
+    "camera_not_supported": "Seu navegador nao suporta acesso a camera.",
+    "camera_error": "Ocorreu um erro ao acessar a camera.",
+    "resultTitle": "Resultado da analise",
+    "suggestions": "Sugestoes passo a passo",
+    "sensitiveWarning": "Atencao: esta imagem pode conter dados sensiveis como senhas ou numeros de cartao. Tenha cuidado ao compartilhar.",
+    "analysisError": "Ocorreu um erro ao analisar a imagem. Tente novamente.",
+    "listenResult": "Ouvir resultado",
+    "stopListening": "Parar leitura"
+  },
+  "Settings": {
+    "title": "Acessibilidade",
+    "back": "Voltar"
+  },
+  "Help": {
+    "title": "Ajuda",
+    "back": "Voltar",
+    "howToSpeak": {
+      "question": "Como falar com o NaviAI?",
+      "answer": "Toque no botao do microfone na tela principal e fale sua pergunta. O NaviAI vai ouvir e responder em poucos segundos. Voce tambem pode tocar novamente para parar a gravacao."
+    },
+    "howToCamera": {
+      "question": "Como usar a camera?",
+      "answer": "Toque no botao da camera na tela principal. Aponte a camera para o que deseja analisar e toque em 'Tirar foto'. Depois, toque em 'Analisar imagem' para que o NaviAI descreva o que esta na foto."
+    },
+    "whatIsAccessibility": {
+      "question": "O que e o modo acessibilidade?",
+      "answer": "O modo acessibilidade aumenta o tamanho das letras, dos botoes e pode ativar o alto contraste para facilitar a leitura. Voce tambem pode ativar a leitura em voz alta para ouvir as respostas. Acesse em Configuracoes > Acessibilidade."
+    },
+    "howToCreateAccount": {
+      "question": "Como criar uma conta?",
+      "answer": "Toque em 'Criar conta' na tela de login. Preencha seu nome, e-mail e crie uma senha segura. Em poucos passos voce estara pronto para usar o NaviAI!"
+    }
+  },
+  "Auth": {
+    "login": "Entrar",
+    "createAccount": "Criar conta",
+    "email": "E-mail",
+    "password": "Senha",
+    "rememberMe": "Lembrar de mim",
+    "loginTitle": "Entrar no NaviAI",
+    "noAccount": "Nao tem conta?",
+    "hasAccount": "Ja tem conta?",
+    "errorInvalidCredentials": "E-mail ou senha incorretos. Tente novamente.",
+    "or": "ou",
+    "loginGoogle": "Entrar com Google",
+    "devSession": "Entrar como desenvolvedor",
+    "googleNotConfigured": "Login com Google nao esta configurado."
+  }
+}

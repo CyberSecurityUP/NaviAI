@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navi-font-scale: 1;
+  --navi-min-tap-size: 48px;
+  --navi-border-radius: 16px;
+  --navi-bg: #ffffff;
+  --navi-text: #1a1a2e;
+  --navi-primary: #1a73e8;
+  --navi-primary-light: #e8f0fe;
+  --navi-surface: #f8f9fa;
+  --navi-surface-hover: #e8eaed;
+  --navi-danger: #d93025;
+  --navi-success: #1e8e3e;
+}
+
+[data-high-contrast="true"] {
+  --navi-bg: #000000;
+  --navi-text: #ffffff;
+  --navi-primary: #ffcc00;
+  --navi-primary-light: #332b00;
+  --navi-surface: #1a1a1a;
+  --navi-surface-hover: #333333;
+  --navi-danger: #ff6b6b;
+  --navi-success: #6bff6b;
+}
+
+[data-easy-touch="true"] {
+  --navi-min-tap-size: 64px;
+  --navi-border-radius: 24px;
+}
+
+body {
+  font-size: calc(1rem * var(--navi-font-scale));
+  background-color: var(--navi-bg);
+  color: var(--navi-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer base {
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    outline: 3px solid var(--navi-primary);
+    outline-offset: 2px;
+  }
+}
